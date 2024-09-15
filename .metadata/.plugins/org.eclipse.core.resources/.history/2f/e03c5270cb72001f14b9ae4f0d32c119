@@ -1,0 +1,9 @@
+package com.example.blog.servico;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.blog.entidade.Blog;
+
+public interface BlogServicos extends JpaRepository<Blog, Long>{
+
+}
